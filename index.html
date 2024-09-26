@@ -2,15 +2,162 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="CV Dmytro Sayko - Professional Resume" />
+    <meta
+      name="keywords"
+      content="Dmytro Sayko, CV, Resume, Web Developer, Designer"
+    />
+    <meta name="author" content="Dmytro Sayko" />
+    <link
+      rel="shortcut icon"
+      href="./favicon/favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tangerine:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CV</title>
+    <title>CV Dmytro Sayko</title>
 
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body>
-    <header></header>
-    <main></main>
+  <body style="background-color: bisque">
+    <header>
+      <h1>DMYTRO SAYKO</h1>
+      <h2>FRONTEND DEVELOPER</h2>
+      <img
+        class="img-man"
+        style="width: 200px; height: 150px; position: absolute; z-index: 2"
+        src="./img/man.png"
+        alt="photo man"
+      />
+      <img
+        class="img-woman"
+        style="width: 200px; height: 150px; position: relative; z-index: 1"
+        src="./img/woman.png"
+        alt="photo woman"
+      />
+      <br />
+      <button type="button" class="but-man">Man</button>
+      <button type="button" class="but-woman">Woman</button>
+
+      <script>
+        const imgManEl = document.querySelector(".img-man");
+        const imgWomanEl = document.querySelector(".img-woman");
+        const butManEl = document.querySelector(".but-man");
+        const butWomanEl = document.querySelector(".but-woman");
+
+        butManEl.addEventListener("click", () => {
+          imgManEl.style.zIndex = "2";
+          imgWomanEl.style.zIndex = "1";
+        });
+
+        butWomanEl.addEventListener("click", () => {
+          imgManEl.style.zIndex = "1";
+          imgWomanEl.style.zIndex = "2";
+        });
+      </script>
+
+      <address>
+        <ul>
+          <li>
+            <a
+              href="mailto:saykodmytro@icloud.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Mail</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://call.whatsapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >WhatsApp</a
+            >
+          </li>
+          <li>
+            <a href="https://t.me" target="_blank" rel="noopener noreferrer"
+              >Telegram</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Linkedin</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub</a
+            >
+          </li>
+        </ul>
+      </address>
+    </header>
+    <main>
+      <section>
+        <ul>
+          <li>
+            <h3>EDUCATION</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+              cupiditate labore veniam aperiam omnis fugit corrupti cum nihil
+              commodi accusantium placeat rem molestiae, nulla unde mollitia id
+              autem incidunt iusto.
+            </p>
+          </li>
+          <li>
+            <h3>EXPERIENCE</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+              ullam, voluptate reiciendis sit quo ratione eveniet ab eos saepe
+              cum id reprehenderit mollitia, corrupti omnis et sunt porro?
+              Corrupti, et!
+            </p>
+          </li>
+          <li>
+            <h3>ABOUT ME</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+              suscipit tempore assumenda ex aspernatur? Harum illo numquam
+              repudiandae natus maxime recusandae fuga autem, quod aliquam dicta
+              ex sit nisi aspernatur!
+            </p>
+          </li>
+          <li>
+            <h3>SOFT SKILLS</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+              repellendus dolor maxime totam minima, explicabo esse vitae
+              dolores hic enim eos. Repellat at quo doloribus perspiciatis
+              quibusdam dolor reiciendis modi.
+            </p>
+          </li>
+          <li>
+            <h3>HARD SKILLS</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, odit
+              ipsam inventore quidem iure tempora aliquid distinctio accusamus
+              perferendis adipisci voluptas officia ipsa cum illum consequuntur,
+              enim aut a labore.
+            </p>
+          </li>
+          <li>
+            <h3>LANGUAGES</h3>
+            <p>Ukrainian (Native) English (Intermediate)</p>
+          </li>
+        </ul>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
