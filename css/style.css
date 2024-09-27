@@ -1,10 +1,9 @@
-/* *****************************  COMPONENTS  ******************************* */
+/* *** COMPONENTS  *** */
 :root {
-  --color-logo: #4d5ae5;
   --color-text-head: #11121c;
   --color-text-sec: #2e2f42;
   --color-white-light: #f4f4fd;
-  --color-text-hover-focus: #404bbf;
+  --color-text-hover-focus: #1c2de9;
   --bg-color-head: #ffffff;
   --color-border: #e7e9fc;
   --color-svg-logo-cust: #8e8f99;
@@ -18,7 +17,15 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-text-head);
-  /* background-color: var(--bg-color-head); */
+}
+
+.link-adress {
+  color: var(--color-text-head);
+}
+
+.link-adress:hover,
+.link-adress:focus {
+  color: var(--color-text-hover-focus);
 }
 
 .section {
