@@ -1,0 +1,53 @@
+/* ***  FIRST-MOBILE  *** */
+
+@media screen and (max-width: 767px) {
+  .section {
+    background-color: aqua;
+    padding: 48px 0;
+  }
+}
+
+/* *** Tablet (768px - 1157px) *** */
+
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+}
+
+/* *** Desktop (1157px +) *** */
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .page-header {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+    box-shadow: 0px 2px 2px rgba(46, 47, 66, 0.08),
+      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  }
+
+  .title-page {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 48px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    max-width: 280px;
+  }
+  .title-descript {
+    font-family: "Bebas Neue", sans-serif;
+    text-transform: capitalize;
+    font-size: 24px;
+  }
+
+  .adress-page {
+    color: black;
+  }
+}
