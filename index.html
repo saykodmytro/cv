@@ -1,13 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
   <head>
+    <meta name="robots" content="index, nofollow" />
+    <meta name="googlebot" content="index, nofollow, noarchive" />
+    <meta name="google" content="nositelinkssearchbox" />
+
     <meta charset="UTF-8" />
-    <meta name="description" content="CV Dmytro Sayko - Professional Resume" />
+    <meta
+      name="description"
+      content="CV Dmytro Sayko - Professional Web developer Resume"
+    />
     <meta
       name="keywords"
       content="Dmytro Sayko, CV, Resume, Web Developer, Designer"
     />
-    <meta name="author" content="Dmytro Sayko" />
+    <meta name="author" content="CV Dmytro Sayko" />
     <link
       rel="shortcut icon"
       href="./favicon/favicon.png"
@@ -16,50 +23,39 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tangerine:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Tangerine"
       rel="stylesheet"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CV Dmytro Sayko</title>
+    <title>CV Daniel Smith - web developer</title>
 
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/response.css" />
+
+    <script src="js/main.js" type="module"></script>
   </head>
-  <body style="background-color: bisque">
-    <header>
-      <h1>DMYTRO SAYKO</h1>
-      <h2>FRONTEND DEVELOPER</h2>
-      <img
-        class="img-man"
-        style="width: 200px; height: 150px; position: absolute; z-index: 2"
-        src="./img/man.png"
-        alt="photo man"
-      />
-      <img
-        class="img-woman"
-        style="width: 200px; height: 150px; position: relative; z-index: 1"
-        src="./img/woman.png"
-        alt="photo woman"
-      />
-      <br />
-      <button type="button" class="but-man">Man</button>
-      <button type="button" class="but-woman">Woman</button>
-
-      <script>
-        const imgManEl = document.querySelector(".img-man");
-        const imgWomanEl = document.querySelector(".img-woman");
-        const butManEl = document.querySelector(".but-man");
-        const butWomanEl = document.querySelector(".but-woman");
-
-        butManEl.addEventListener("click", () => {
-          imgManEl.style.zIndex = "2";
-          imgWomanEl.style.zIndex = "1";
-        });
-
-        butWomanEl.addEventListener("click", () => {
-          imgManEl.style.zIndex = "1";
-          imgWomanEl.style.zIndex = "2";
-        });
-      </script>
+  <body>
+    <header class="header-conteiner">
+      <h1 class="title">Daniel Smith</h1>
+      <h2 class="secondary-title">Frontend Developer</h2>
+      <div class="container-img-man-woman">
+        <img
+          class="img-man"
+          style="width: 200px; height: 150px; position: absolute; z-index: 2"
+          src="./img/man.png"
+          alt="photo man"
+        />
+        <img
+          class="img-woman"
+          style="width: 200px; height: 150px; position: relative; z-index: 1"
+          src="./img/woman.png"
+          alt="photo woman"
+        />
+        <br />
+        <button type="button" class="but-man">Man</button>
+        <button type="button" class="but-woman">Woman</button>
+      </div>
 
       <address>
         <ul>
