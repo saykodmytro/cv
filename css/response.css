@@ -1,8 +1,11 @@
 /* ***  FIRST-MOBILE  *** */
 
 @media screen and (max-width: 767px) {
-  .section {
+  body {
     background-color: aqua;
+  }
+
+  .section {
     padding: 48px 0;
   }
 }
@@ -10,11 +13,18 @@
 /* *** Tablet (768px - 1157px) *** */
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
+  body {
+    background-color: rgb(193, 223, 164);
+  }
 }
 
 /* *** Desktop (1157px +) *** */
 
 @media screen and (min-width: 1158px) {
+  body {
+    background-color: rgb(106, 226, 156);
+  }
+
   .container {
     max-width: 1158px;
     padding-left: 15px;
