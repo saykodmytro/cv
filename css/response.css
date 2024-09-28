@@ -8,11 +8,18 @@
   .section {
     padding: 48px 0;
   }
+
+  .container {
+    max-width: 428px;
+  }
 }
 
 /* *** Tablet (768px - 1157px) *** */
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
+  .container {
+    width: 768px;
+  }
   body {
     background-color: rgb(193, 223, 164);
   }
@@ -22,29 +29,30 @@
 
 @media screen and (min-width: 1158px) {
   body {
-    background-color: rgb(106, 226, 156);
+    /* background-color: rgb(106, 226, 156); */
+  }
+
+  .section-header {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid var(--color-border);
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
   }
 
   .container {
     max-width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 
-  .page-header {
-    padding-top: 50px;
-    padding-bottom: 30px;
+  .container-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid black;
-    box-shadow: 0px 2px 2px rgba(46, 47, 66, 0.08),
-      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
   }
 
   .title-page {
     font-family: "Bebas Neue", sans-serif;
-    font-size: 48px;
+    font-size: 56px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -60,16 +68,24 @@
   .adress-page {
     color: black;
   }
+
+  .section-hero {
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+
   .menu-about-me {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 48px;
+    padding-top: 12px;
+    padding-bottom: 12px;
   }
 
   .list-about-me {
-    width: calc((100% - 1 * 24px) / 2);
-    background-color: var(--bg-color-head);
-    padding-right: 10px;
+    /* outline: 1px solid yellow; */
+    width: calc((100% - 24px) / 2);
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
