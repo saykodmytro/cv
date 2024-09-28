@@ -23,6 +23,12 @@
   body {
     background-color: rgb(193, 223, 164);
   }
+
+  .container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 /* *** Desktop (1157px +) *** */
