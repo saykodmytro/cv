@@ -1,10 +1,6 @@
 /* ***  FIRST-MOBILE  *** */
 
 @media screen and (max-width: 767px) {
-  body {
-    background-color: aqua;
-  }
-
   .section {
     padding: 48px 0;
   }
@@ -20,9 +16,6 @@
   .container {
     width: 768px;
   }
-  body {
-    background-color: rgb(193, 223, 164);
-  }
 
   .container-header {
     display: flex;
@@ -34,16 +27,9 @@
 /* *** Desktop (1157px +) *** */
 
 @media screen and (min-width: 1158px) {
-  body {
-    /* background-color: rgb(106, 226, 156); */
-  }
-
   .section-header {
     padding-top: 50px;
     padding-bottom: 30px;
-    border-bottom: 1px solid var(--color-border);
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
   }
 
   .container {
@@ -59,10 +45,6 @@
   .title-page {
     font-family: "Bebas Neue", sans-serif;
     font-size: 56px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    margin-bottom: 20px;
     max-width: 280px;
   }
   .title-descript {
@@ -90,10 +72,10 @@
   }
 
   .list-about-me {
-    /* outline: 1px solid yellow; */
-    width: calc((100% - 24px) / 2);
-    border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    width: calc((100% - 100px) / 2);
+    padding-top: 6px;
+    padding-right: 8px;
+    padding-bottom: 6px;
+    padding-left: 30px;
   }
 }
