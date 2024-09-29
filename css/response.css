@@ -8,6 +8,15 @@
   .container {
     max-width: 428px;
   }
+
+  .list-about-me {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .list-about-me:last-child {
+    padding-bottom: 0;
+  }
 }
 
 /* *** Tablet (768px - 1157px) *** */
@@ -21,6 +30,20 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .section-hero {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .list-about-me {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .list-about-me:last-child {
+    padding-bottom: 0;
   }
 }
 
