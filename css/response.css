@@ -2,11 +2,42 @@
 
 @media screen and (max-width: 767px) {
   .section {
-    padding: 48px 0;
+    padding: 6px 0;
   }
 
   .container {
     max-width: 428px;
+  }
+
+  .container-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .title-page {
+    font-family: "Bebas Neue", sans-serif;
+    text-transform: capitalize;
+    font-size: 18px;
+  }
+  .title-descript {
+    font-family: "Bebas Neue", sans-serif;
+    text-transform: capitalize;
+    font-size: 12px;
+  }
+
+  .mobile-menu_btn-open {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    line-height: 0;
+  }
+
+  .adress-page {
+    display: none;
+  }
+
+  .container-img {
+    display: none;
   }
 
   .list-about-me {
