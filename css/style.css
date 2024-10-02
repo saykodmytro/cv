@@ -62,7 +62,7 @@ body {
 .item-adress {
   display: flex;
   align-items: center;
-  margin-bottom: 4px;
+  /* margin-bottom: 4px; */
 }
 
 .social-svg-icon {
@@ -125,5 +125,5 @@ body {
 .svg-icon-logo {
   position: fixed;
   top: 10px;
-  left: 30px;
+  left: 70px;
 }
