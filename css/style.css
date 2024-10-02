@@ -68,3 +68,62 @@ body {
 .social-svg-icon {
   margin-right: 6px;
 }
+
+/* Mobile menu */
+
+.mobile-menu-container-fixed {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: auto;
+}
+
+.mobile-menu-container-fixed.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.mobile-menu_container-reletiv {
+  position: relative;
+  padding-top: 80px;
+  padding-left: 40px;
+  padding-bottom: 40px;
+}
+
+.mobile-menu_btn-close {
+  position: absolute;
+  top: 24px;
+  right: 45px;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  line-height: 0;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: var(--color-border);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.adress-mobile-menu {
+  display: flex;
+  justify-content: center;
+}
+
+.svg-icon-logo {
+  position: fixed;
+  top: 10px;
+  left: 30px;
+}
