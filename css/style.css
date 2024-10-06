@@ -133,6 +133,7 @@ body {
 }
 
 .title-about-me {
+  text-align: center;
   margin-bottom: 10px;
   font-size: 22px;
 }
@@ -144,4 +145,18 @@ body {
 .link-project {
   display: block;
   margin-bottom: 5px;
+}
+
+.link-adress:hover,
+.link-adress:focus {
+  color: #404bbf;
+}
+.link-project:hover,
+.link-project :focus {
+  color: #404bbf;
+}
+
+.link-project {
+  font-size: 18px;
+  color: rgb(21, 6, 6);
 }
