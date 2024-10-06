@@ -125,5 +125,14 @@ body {
 .svg-icon-logo {
   position: fixed;
   top: 10px;
-  left: 40px;
+  left: 100px;
+}
+
+.second-list-style {
+  list-style: disc;
+}
+
+.title-about-me {
+  margin-bottom: 10px;
+  font-size: 22px;
 }

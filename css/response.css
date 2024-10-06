@@ -49,6 +49,7 @@
   .list-about-me {
     display: block;
     margin-bottom: 20px;
+    padding: 6px 8px 6px 30px;
   }
 
   .list-about-me:last-child {
@@ -77,9 +78,23 @@
     padding-bottom: 30px;
   }
 
+  .menu-about-me {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
   .list-about-me {
     display: block;
     margin-bottom: 20px;
+    width: calc((100% - 100px) / 2);
+    padding-top: 6px;
+    padding-right: 8px;
+    padding-bottom: 6px;
+    padding-left: 30px;
   }
 
   .list-about-me:last-child {
